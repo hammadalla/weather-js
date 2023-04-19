@@ -1,0 +1,159 @@
+body {
+    background: #1e202b;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.logoo {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.log {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    margin-right: 5px;
+    font-size: 16px;
+}
+.nav-item .nav-link:hover {
+    color: #009ad8;
+    border-color: #009ad8;
+}
+.nav-item .nav-link.active {
+    color: #009ad8;
+    border-color: #009ad8;
+}
+.back {
+    background-size: cover;
+    height: 350px;
+    background-image: url(image/images2.png);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.form-control {
+    background: rgb(30, 32, 43);
+
+}
+
+.form-control:focus {
+    background: rgb(30, 32, 43);
+    caret-color: white;
+
+}
+
+.form-control::placeholder {
+font-size: 14px;
+}
+
+.box{
+    position: relative;
+}
+
+.bttn{
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    bottom: 5px;
+    background: #009ad8;
+    transition: all 1s;
+}
+
+.bttn:hover
+{
+    background-color: #18c1ff4c;
+    
+    transform: scale(1.1);
+}
+
+.our-one{
+    background-image: linear-gradient(to right top, #3876d3a3, #5787cf95, #7598c9c4, #93a7c396, #b1b6bc);
+    color: white;
+    border-radius: 5%;
+    box-shadow: 1px 1px 0px 0px;
+    
+    }
+
+.our-two{
+    background-image: linear-gradient(to right top, #053885c7, #2a4d89b8, #46608bb0, #63748bb9, #82868bc2);
+    color: white;
+border-radius: 5%;
+box-shadow: 1px 1px 0px 0px;
+
+}
+
+
+.head{
+/* background-color: rgba(0, 0, 0, 0.669); */
+display: flex;
+justify-content: space-between;
+color: rgba(255, 255, 255, 0.583);
+}
+
+.head1{
+    display: flex;
+    justify-content: center;
+color: rgba(255, 255, 255, 0.583);
+    border-radius: 5%;
+}
+/* .head2{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+} */
+
+.word {
+    font-size: 50px;
+}
+
+
+
+.site-footer{
+    background-color: #2b2d38;
+}
+
+
+#temp{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+
+
+.circle a{
+color: #fff;
+}
+.circle:hover a{
+    color: #0089bf;
+    }
+    .circle:hover {
+    border: 2px solid white;
+
+}
+.circle {
+height: 50px;
+width: 50px;
+border-radius: 50%;
+background-color: #1c2125d6;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-around;
+}
